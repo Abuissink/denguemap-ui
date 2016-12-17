@@ -1,17 +1,14 @@
 body {
         padding-top: 40px;
         /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-        font-family: 'Hind', sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
 .btn-max {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.controls {
-    border-style: solid;
-    border-width: medium;
-}
+
 
 .bottom-buttons {
     padding-top: 40px;
@@ -24,4 +21,27 @@ body {
 .300x200 {
     width: 300px;
     height: 200px;
+}
+
+.top {
+    margin-top: 20px;
+}
+
+.bottom {
+    margin-bottom: 20px;
+}
+
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
+}
+
+/* IE 6 */
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
 }
