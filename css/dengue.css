@@ -1,0 +1,27 @@
+body {
+        padding-top: 40px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+        font-family: 'Hind', sans-serif;
+    }
+.btn-max {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.controls {
+    border-style: solid;
+    border-width: medium;
+}
+
+.bottom-buttons {
+    padding-top: 40px;
+}
+
+.btn-btm {
+    width: 300px;
+}
+
+.300x200 {
+    width: 300px;
+    height: 200px;
+}
